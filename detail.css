@@ -1,0 +1,149 @@
+.product-detail {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.game-info {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.game-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+.game-text h2 {
+    margin: 0;
+    color: var(--primary-pink);
+}
+
+.input-section {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.user-input input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 2px solid var(--secondary-pink);
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.info-text {
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+.denomination-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.denom-card {
+    background: white;
+    border: 2px solid var(--secondary-pink);
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.denom-card:hover {
+    border-color: var(--primary-pink);
+    transform: translateY(-3px);
+}
+
+.denom-card h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: var(--primary-pink);
+}
+
+.denom-card p {
+    margin: 0.3rem 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+.promo-badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: var(--primary-pink);
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.payment-section {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.payment-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.payment-option {
+    border: 2px solid var(--secondary-pink);
+    border-radius: 8px;
+    padding: 0.8rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.payment-option:hover {
+    border-color: var(--primary-pink);
+}
+
+.payment-option img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0.5rem;
+}
+
+.payment-option span {
+    display: block;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.checkout-btn {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+} 

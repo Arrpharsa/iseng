@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konfirmasi Pesanan - Carla Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="detail.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>🎮 Carla Store</h1>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Beranda</a>
+        </div>
+    </nav>
+
+    <div class="confirmation-container">
+        <h2>Konfirmasi Pesanan</h2>
+        <div class="order-details">
+            <div class="detail-item">
+                <span class="label">Game:</span>
+                <span class="value" id="game-name"></span>
+            </div>
+            <div class="detail-item">
+                <span class="label">User ID:</span>
+                <span class="value" id="user-id"></span>
+            </div>
+            <div class="detail-item">
+                <span class="label">Zone ID:</span>
+                <span class="value" id="zone-id"></span>
+            </div>
+            <div class="detail-item">
+                <span class="label">Nominal:</span>
+                <span class="value" id="denom"></span>
+            </div>
+            <div class="detail-item">
+                <span class="label">Harga:</span>
+                <span class="value" id="price"></span>
+            </div>
+            <div class="detail-item">
+                <span class="label">Metode Pembayaran:</span>
+                <span class="value" id="payment"></span>
+            </div>
+        </div>
+
+        <div class="payment-instruction">
+            <h3>Instruksi Pembayaran</h3>
+            <div id="payment-steps"></div>
+        </div>
+
+        <button class="confirm-btn">Konfirmasi Pembayaran</button>
+    </div>
+
+    <script src="confirmation.js"></script>
+</body>
+</html> 
